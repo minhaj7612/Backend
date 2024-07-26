@@ -18,7 +18,7 @@ app.use(cors({
    
 }))
 
-app.post('/', (req, res) => {
+app.get('/', function (req, res)  {
  res.send("working")
 });
 
