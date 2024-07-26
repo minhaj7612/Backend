@@ -18,11 +18,11 @@ app.use(cors({
    
 }))
 
-app.get('/', function (req, res)  {
- res.send("working")
+app.get('/', function (req, res){
+   res.send("working")
 });
 
-app.use("/api/v1",AllRoutes)
+// app.use("/api/v1",AllRoutes)
 
 
 mongoose
